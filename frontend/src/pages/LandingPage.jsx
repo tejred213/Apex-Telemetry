@@ -45,6 +45,9 @@ function LandingPage() {
               <Link to="/compare" className="btn btn--primary btn--hero">
                 Compare Laps &rarr;
               </Link>
+              <Link to="/strategy" className="btn btn--secondary btn--hero" style={{ marginLeft: '1rem', background: 'transparent', border: '1px solid rgba(255,255,255,0.3)', color: '#fff' }}>
+                Race Strategy &rarr;
+              </Link>
             </div>
             
             <div className="hero__social-proof">
@@ -95,21 +98,60 @@ function LandingPage() {
       {/* Stats Divider (Modified to not have fake numbers as requested) */}
       <section className="stats-divider">
         <div className="stats-container">
-          <div className="stat-item">
-            <h3 className="stat-title"><em>SECTOR ANALYSIS</em></h3>
-            <p className="stat-desc">COMPARE DELTAS</p>
+          {/* Group 1 */}
+          <div className="stats-marquee-group">
+            <div className="stat-item">
+              <h3 className="stat-title"><em>RACE STRATEGY</em></h3>
+              <p className="stat-desc">MLX PREDICTIONS</p>
+            </div>
+            <div className="stat-item">
+              <h3 className="stat-title"><em>3D SIMULATION</em></h3>
+              <p className="stat-desc">LIVE RACE REPLAY</p>
+            </div>
+            <div className="stat-item">
+              <h3 className="stat-title"><em>SECTOR ANALYSIS</em></h3>
+              <p className="stat-desc">COMPARE DELTAS</p>
+            </div>
+            <div className="stat-item">
+              <h3 className="stat-title"><em>TELEMETRY</em></h3>
+              <p className="stat-desc">THROTTLE & BRAKE</p>
+            </div>
+            <div className="stat-item">
+              <h3 className="stat-title"><em>TRACK MAPS</em></h3>
+              <p className="stat-desc">DOMINANCE ZONES</p>
+            </div>
+            <div className="stat-item">
+              <h3 className="stat-title"><em>SPEED TRAPS</em></h3>
+              <p className="stat-desc">TOP SPEEDS</p>
+            </div>
           </div>
-          <div className="stat-item">
-            <h3 className="stat-title"><em>TELEMETRY</em></h3>
-            <p className="stat-desc">THROTTLE & BRAKE</p>
-          </div>
-          <div className="stat-item">
-            <h3 className="stat-title"><em>TRACK MAPS</em></h3>
-            <p className="stat-desc">DOMINANCE ZONES</p>
-          </div>
-          <div className="stat-item">
-            <h3 className="stat-title"><em>SPEED TRAPS</em></h3>
-            <p className="stat-desc">TOP SPEEDS</p>
+
+          {/* Group 2 (Duplicate for seamless loop) */}
+          <div className="stats-marquee-group" aria-hidden="true">
+            <div className="stat-item">
+              <h3 className="stat-title"><em>RACE STRATEGY</em></h3>
+              <p className="stat-desc">MLX PREDICTIONS</p>
+            </div>
+            <div className="stat-item">
+              <h3 className="stat-title"><em>3D SIMULATION</em></h3>
+              <p className="stat-desc">LIVE RACE REPLAY</p>
+            </div>
+            <div className="stat-item">
+              <h3 className="stat-title"><em>SECTOR ANALYSIS</em></h3>
+              <p className="stat-desc">COMPARE DELTAS</p>
+            </div>
+            <div className="stat-item">
+              <h3 className="stat-title"><em>TELEMETRY</em></h3>
+              <p className="stat-desc">THROTTLE & BRAKE</p>
+            </div>
+            <div className="stat-item">
+              <h3 className="stat-title"><em>TRACK MAPS</em></h3>
+              <p className="stat-desc">DOMINANCE ZONES</p>
+            </div>
+            <div className="stat-item">
+              <h3 className="stat-title"><em>SPEED TRAPS</em></h3>
+              <p className="stat-desc">TOP SPEEDS</p>
+            </div>
           </div>
         </div>
       </section>
@@ -150,11 +192,23 @@ function LandingPage() {
               </div>
             </div>
 
-            {/* Card 3 */}
+            {/* Card 3: Predictive Race Strategy */}
+            <div className="insight-card">
+              <div className="insight-card__image gradient-bg-2" style={{ objectFit: 'cover' }}>
+                <img src="/assets/images/Simulation 2.png" alt="Strategy Simulation" onError={(e) => { e.target.style.display = 'none'; }} />
+                <div className="card-tag text-red">FIG 1.3 SIMULATION</div>
+              </div>
+              <div className="insight-card__content">
+                <h3>Predictive Race Strategy</h3>
+                <p>Build custom stint strategies and visualize them on a 3D track map alongside actual race driver data using our MLX-powered engine.</p>
+              </div>
+            </div>
+
+            {/* Card 4: Top Speed Traps */}
             <div className="insight-card">
               <div className="insight-card__image gradient-bg-1" style={{ objectFit: 'cover' }}>
                 <img src="/assets/images/speed_trap_chart.png" alt="Top Speed" onError={(e) => { e.target.style.display = 'none'; }} />
-                <div className="card-tag text-red">FIG 1.3 SPEED TRAP</div>
+                <div className="card-tag text-red">FIG 1.4 SPEED TRAP</div>
               </div>
               <div className="insight-card__content">
                 <h3>Top Speed Traps</h3>

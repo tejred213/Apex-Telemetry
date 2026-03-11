@@ -1,0 +1,5942 @@
+{
+  "totalLaps": 53,
+  "compounds": {
+    "SOFT": {
+      "color": "#E10600",
+      "baseline": 82.497,
+      "curve": [
+        {
+          "lap": 0,
+          "delta": 4.057,
+          "predicted": 86.554
+        },
+        {
+          "lap": 1,
+          "delta": 4.047,
+          "predicted": 86.544
+        },
+        {
+          "lap": 2,
+          "delta": 4.036,
+          "predicted": 86.533
+        },
+        {
+          "lap": 3,
+          "delta": 4.026,
+          "predicted": 86.523
+        },
+        {
+          "lap": 4,
+          "delta": 4.016,
+          "predicted": 86.513
+        },
+        {
+          "lap": 5,
+          "delta": 4.005,
+          "predicted": 86.502
+        },
+        {
+          "lap": 6,
+          "delta": 3.995,
+          "predicted": 86.492
+        },
+        {
+          "lap": 7,
+          "delta": 3.984,
+          "predicted": 86.481
+        },
+        {
+          "lap": 8,
+          "delta": 3.973,
+          "predicted": 86.47
+        },
+        {
+          "lap": 9,
+          "delta": 3.962,
+          "predicted": 86.459
+        },
+        {
+          "lap": 10,
+          "delta": 3.951,
+          "predicted": 86.448
+        },
+        {
+          "lap": 11,
+          "delta": 3.94,
+          "predicted": 86.437
+        },
+        {
+          "lap": 12,
+          "delta": 3.928,
+          "predicted": 86.425
+        },
+        {
+          "lap": 13,
+          "delta": 3.917,
+          "predicted": 86.414
+        },
+        {
+          "lap": 14,
+          "delta": 3.906,
+          "predicted": 86.403
+        },
+        {
+          "lap": 15,
+          "delta": 3.894,
+          "predicted": 86.391
+        },
+        {
+          "lap": 16,
+          "delta": 3.882,
+          "predicted": 86.379
+        },
+        {
+          "lap": 17,
+          "delta": 3.871,
+          "predicted": 86.368
+        },
+        {
+          "lap": 18,
+          "delta": 3.859,
+          "predicted": 86.356
+        },
+        {
+          "lap": 19,
+          "delta": 3.847,
+          "predicted": 86.344
+        },
+        {
+          "lap": 20,
+          "delta": 3.835,
+          "predicted": 86.332
+        },
+        {
+          "lap": 21,
+          "delta": 3.822,
+          "predicted": 86.319
+        },
+        {
+          "lap": 22,
+          "delta": 3.81,
+          "predicted": 86.307
+        },
+        {
+          "lap": 23,
+          "delta": 3.798,
+          "predicted": 86.295
+        },
+        {
+          "lap": 24,
+          "delta": 3.785,
+          "predicted": 86.282
+        },
+        {
+          "lap": 25,
+          "delta": 3.773,
+          "predicted": 86.27
+        },
+        {
+          "lap": 26,
+          "delta": 3.76,
+          "predicted": 86.257
+        },
+        {
+          "lap": 27,
+          "delta": 3.747,
+          "predicted": 86.244
+        },
+        {
+          "lap": 28,
+          "delta": 3.735,
+          "predicted": 86.232
+        },
+        {
+          "lap": 29,
+          "delta": 3.722,
+          "predicted": 86.219
+        },
+        {
+          "lap": 30,
+          "delta": 3.709,
+          "predicted": 86.206
+        },
+        {
+          "lap": 31,
+          "delta": 3.695,
+          "predicted": 86.192
+        },
+        {
+          "lap": 32,
+          "delta": 3.682,
+          "predicted": 86.179
+        },
+        {
+          "lap": 33,
+          "delta": 3.669,
+          "predicted": 86.166
+        },
+        {
+          "lap": 34,
+          "delta": 3.656,
+          "predicted": 86.153
+        },
+        {
+          "lap": 35,
+          "delta": 3.642,
+          "predicted": 86.139
+        },
+        {
+          "lap": 36,
+          "delta": 3.629,
+          "predicted": 86.126
+        },
+        {
+          "lap": 37,
+          "delta": 3.615,
+          "predicted": 86.112
+        },
+        {
+          "lap": 38,
+          "delta": 3.601,
+          "predicted": 86.098
+        },
+        {
+          "lap": 39,
+          "delta": 3.587,
+          "predicted": 86.084
+        },
+        {
+          "lap": 40,
+          "delta": 3.573,
+          "predicted": 86.07
+        }
+      ]
+    },
+    "MEDIUM": {
+      "color": "#FFC700",
+      "baseline": 85.692,
+      "curve": [
+        {
+          "lap": 0,
+          "delta": 2.169,
+          "predicted": 87.861
+        },
+        {
+          "lap": 1,
+          "delta": 2.153,
+          "predicted": 87.845
+        },
+        {
+          "lap": 2,
+          "delta": 2.137,
+          "predicted": 87.829
+        },
+        {
+          "lap": 3,
+          "delta": 2.12,
+          "predicted": 87.812
+        },
+        {
+          "lap": 4,
+          "delta": 2.104,
+          "predicted": 87.796
+        },
+        {
+          "lap": 5,
+          "delta": 2.087,
+          "predicted": 87.779
+        },
+        {
+          "lap": 6,
+          "delta": 2.07,
+          "predicted": 87.762
+        },
+        {
+          "lap": 7,
+          "delta": 2.053,
+          "predicted": 87.745
+        },
+        {
+          "lap": 8,
+          "delta": 2.036,
+          "predicted": 87.728
+        },
+        {
+          "lap": 9,
+          "delta": 2.019,
+          "predicted": 87.711
+        },
+        {
+          "lap": 10,
+          "delta": 2.001,
+          "predicted": 87.693
+        },
+        {
+          "lap": 11,
+          "delta": 1.984,
+          "predicted": 87.676
+        },
+        {
+          "lap": 12,
+          "delta": 1.966,
+          "predicted": 87.658
+        },
+        {
+          "lap": 13,
+          "delta": 1.948,
+          "predicted": 87.64
+        },
+        {
+          "lap": 14,
+          "delta": 1.93,
+          "predicted": 87.622
+        },
+        {
+          "lap": 15,
+          "delta": 1.912,
+          "predicted": 87.604
+        },
+        {
+          "lap": 16,
+          "delta": 1.894,
+          "predicted": 87.586
+        },
+        {
+          "lap": 17,
+          "delta": 1.876,
+          "predicted": 87.568
+        },
+        {
+          "lap": 18,
+          "delta": 1.857,
+          "predicted": 87.549
+        },
+        {
+          "lap": 19,
+          "delta": 1.839,
+          "predicted": 87.531
+        },
+        {
+          "lap": 20,
+          "delta": 1.82,
+          "predicted": 87.512
+        },
+        {
+          "lap": 21,
+          "delta": 1.801,
+          "predicted": 87.493
+        },
+        {
+          "lap": 22,
+          "delta": 1.782,
+          "predicted": 87.474
+        },
+        {
+          "lap": 23,
+          "delta": 1.763,
+          "predicted": 87.455
+        },
+        {
+          "lap": 24,
+          "delta": 1.744,
+          "predicted": 87.436
+        },
+        {
+          "lap": 25,
+          "delta": 1.724,
+          "predicted": 87.416
+        },
+        {
+          "lap": 26,
+          "delta": 1.705,
+          "predicted": 87.397
+        },
+        {
+          "lap": 27,
+          "delta": 1.685,
+          "predicted": 87.377
+        },
+        {
+          "lap": 28,
+          "delta": 1.666,
+          "predicted": 87.358
+        },
+        {
+          "lap": 29,
+          "delta": 1.646,
+          "predicted": 87.338
+        },
+        {
+          "lap": 30,
+          "delta": 1.626,
+          "predicted": 87.318
+        },
+        {
+          "lap": 31,
+          "delta": 1.606,
+          "predicted": 87.298
+        },
+        {
+          "lap": 32,
+          "delta": 1.586,
+          "predicted": 87.278
+        },
+        {
+          "lap": 33,
+          "delta": 1.566,
+          "predicted": 87.258
+        },
+        {
+          "lap": 34,
+          "delta": 1.546,
+          "predicted": 87.238
+        },
+        {
+          "lap": 35,
+          "delta": 1.525,
+          "predicted": 87.217
+        },
+        {
+          "lap": 36,
+          "delta": 1.505,
+          "predicted": 87.197
+        },
+        {
+          "lap": 37,
+          "delta": 1.484,
+          "predicted": 87.176
+        },
+        {
+          "lap": 38,
+          "delta": 1.463,
+          "predicted": 87.155
+        },
+        {
+          "lap": 39,
+          "delta": 1.443,
+          "predicted": 87.135
+        },
+        {
+          "lap": 40,
+          "delta": 1.422,
+          "predicted": 87.114
+        }
+      ]
+    }
+  },
+  "modelInfo": {
+    "framework": "MLX",
+    "architecture": "MLP (5 \u2192 64 \u2192 64 \u2192 1)",
+    "trainingSamples": 380,
+    "description": "Tire degradation prediction model trained on race stint data"
+  },
+  "simulation": {
+    "trackMap": [
+      [
+        -1430.9,
+        -1132.5
+      ],
+      [
+        -1408.0,
+        -889.0
+      ],
+      [
+        -1369.9,
+        -503.4
+      ],
+      [
+        -1334.0,
+        -142.0
+      ],
+      [
+        -1310.0,
+        106.0
+      ],
+      [
+        -1274.3,
+        459.8
+      ],
+      [
+        -1232.0,
+        892.0
+      ],
+      [
+        -1206.0,
+        1150.0
+      ],
+      [
+        -1172.2,
+        1497.3
+      ],
+      [
+        -1129.0,
+        1927.0
+      ],
+      [
+        -1104.0,
+        2185.0
+      ],
+      [
+        -1063.5,
+        2588.7
+      ],
+      [
+        -1023.3,
+        2987.3
+      ],
+      [
+        -996.0,
+        3270.0
+      ],
+      [
+        -964.1,
+        3603.5
+      ],
+      [
+        -933.0,
+        3967.0
+      ],
+      [
+        -909.0,
+        4236.0
+      ],
+      [
+        -878.0,
+        4620.4
+      ],
+      [
+        -845.4,
+        5017.7
+      ],
+      [
+        -825.0,
+        5283.0
+      ],
+      [
+        -796.0,
+        5651.6
+      ],
+      [
+        -753.8,
+        6140.8
+      ],
+      [
+        -724.0,
+        6488.0
+      ],
+      [
+        -696.9,
+        6806.2
+      ],
+      [
+        -664.0,
+        7172.0
+      ],
+      [
+        -643.0,
+        7415.0
+      ],
+      [
+        -626.0,
+        7609.4
+      ],
+      [
+        -607.5,
+        7816.6
+      ],
+      [
+        -598.0,
+        7923.0
+      ],
+      [
+        -588.2,
+        8043.8
+      ],
+      [
+        -578.0,
+        8162.0
+      ],
+      [
+        -569.0,
+        8221.0
+      ],
+      [
+        -505.7,
+        8299.8
+      ],
+      [
+        -433.0,
+        8310.0
+      ],
+      [
+        -373.0,
+        8305.0
+      ],
+      [
+        -275.1,
+        8299.0
+      ],
+      [
+        -201.0,
+        8315.6
+      ],
+      [
+        -154.0,
+        8359.0
+      ],
+      [
+        -126.9,
+        8415.1
+      ],
+      [
+        -140.0,
+        8521.0
+      ],
+      [
+        -158.0,
+        8589.0
+      ],
+      [
+        -181.7,
+        8676.0
+      ],
+      [
+        -225.7,
+        8840.6
+      ],
+      [
+        -254.0,
+        8946.0
+      ],
+      [
+        -300.9,
+        9121.6
+      ],
+      [
+        -409.4,
+        9627.1
+      ],
+      [
+        -434.0,
+        9866.0
+      ],
+      [
+        -439.0,
+        10053.5
+      ],
+      [
+        -423.6,
+        10343.6
+      ],
+      [
+        -404.0,
+        10605.0
+      ],
+      [
+        -388.0,
+        10804.0
+      ],
+      [
+        -364.2,
+        11113.6
+      ],
+      [
+        -328.0,
+        11512.0
+      ],
+      [
+        -297.0,
+        11720.0
+      ],
+      [
+        -208.9,
+        12056.0
+      ],
+      [
+        -80.0,
+        12383.0
+      ],
+      [
+        20.0,
+        12579.0
+      ],
+      [
+        209.6,
+        12874.9
+      ],
+      [
+        489.0,
+        13199.0
+      ],
+      [
+        703.7,
+        13395.3
+      ],
+      [
+        1019.8,
+        13628.8
+      ],
+      [
+        1298.0,
+        13797.0
+      ],
+      [
+        1531.4,
+        13914.9
+      ],
+      [
+        1892.0,
+        14060.0
+      ],
+      [
+        2179.0,
+        14147.0
+      ],
+      [
+        2599.3,
+        14235.2
+      ],
+      [
+        2961.0,
+        14278.4
+      ],
+      [
+        3225.0,
+        14302.0
+      ],
+      [
+        3572.3,
+        14333.5
+      ],
+      [
+        3918.9,
+        14364.0
+      ],
+      [
+        4321.0,
+        14399.0
+      ],
+      [
+        4665.6,
+        14428.3
+      ],
+      [
+        5114.0,
+        14462.7
+      ],
+      [
+        5368.0,
+        14478.0
+      ],
+      [
+        5662.7,
+        14495.3
+      ],
+      [
+        5951.8,
+        14512.7
+      ],
+      [
+        6207.0,
+        14528.0
+      ],
+      [
+        6354.8,
+        14536.9
+      ],
+      [
+        6512.4,
+        14546.3
+      ],
+      [
+        6626.0,
+        14553.0
+      ],
+      [
+        6736.9,
+        14561.7
+      ],
+      [
+        6826.0,
+        14600.0
+      ],
+      [
+        6862.0,
+        14658.0
+      ],
+      [
+        6900.5,
+        14774.9
+      ],
+      [
+        6939.0,
+        14897.0
+      ],
+      [
+        6995.0,
+        14977.0
+      ],
+      [
+        7132.3,
+        15013.0
+      ],
+      [
+        7306.0,
+        15045.0
+      ],
+      [
+        7414.0,
+        15068.0
+      ],
+      [
+        7571.7,
+        15105.9
+      ],
+      [
+        7771.7,
+        15160.9
+      ],
+      [
+        8085.0,
+        15265.0
+      ],
+      [
+        8467.2,
+        15395.3
+      ],
+      [
+        8926.8,
+        15551.2
+      ],
+      [
+        9146.0,
+        15624.0
+      ],
+      [
+        9366.1,
+        15698.4
+      ],
+      [
+        9620.9,
+        15783.7
+      ],
+      [
+        9915.0,
+        15878.0
+      ],
+      [
+        10102.3,
+        15904.3
+      ],
+      [
+        10281.0,
+        15881.9
+      ],
+      [
+        10448.0,
+        15818.0
+      ],
+      [
+        10567.9,
+        15739.5
+      ],
+      [
+        10701.3,
+        15601.8
+      ],
+      [
+        10796.0,
+        15433.0
+      ],
+      [
+        10837.2,
+        15282.3
+      ],
+      [
+        10863.6,
+        15044.9
+      ],
+      [
+        10888.0,
+        14802.0
+      ],
+      [
+        10903.0,
+        14642.0
+      ],
+      [
+        10931.0,
+        14347.3
+      ],
+      [
+        10981.3,
+        13813.6
+      ],
+      [
+        11011.0,
+        13497.0
+      ],
+      [
+        11045.1,
+        13142.8
+      ],
+      [
+        11062.8,
+        12952.7
+      ],
+      [
+        11069.2,
+        12846.7
+      ],
+      [
+        11023.7,
+        12665.8
+      ],
+      [
+        10916.0,
+        12553.0
+      ],
+      [
+        10796.0,
+        12482.0
+      ],
+      [
+        10613.4,
+        12380.2
+      ],
+      [
+        10421.0,
+        12272.0
+      ],
+      [
+        10264.0,
+        12183.0
+      ],
+      [
+        10041.2,
+        12058.4
+      ],
+      [
+        9566.0,
+        11792.0
+      ],
+      [
+        9269.0,
+        11626.0
+      ],
+      [
+        8822.9,
+        11377.9
+      ],
+      [
+        8544.0,
+        11222.0
+      ],
+      [
+        8361.0,
+        11119.0
+      ],
+      [
+        8035.1,
+        10935.2
+      ],
+      [
+        7766.0,
+        10771.0
+      ],
+      [
+        7542.0,
+        10620.0
+      ],
+      [
+        7140.8,
+        10306.6
+      ],
+      [
+        6952.0,
+        10142.0
+      ],
+      [
+        6744.8,
+        9959.0
+      ],
+      [
+        6428.6,
+        9681.0
+      ],
+      [
+        6209.0,
+        9488.0
+      ],
+      [
+        6005.4,
+        9309.5
+      ],
+      [
+        5697.6,
+        9038.7
+      ],
+      [
+        5443.0,
+        8815.0
+      ],
+      [
+        5255.1,
+        8649.0
+      ],
+      [
+        4956.6,
+        8383.8
+      ],
+      [
+        4664.0,
+        8126.0
+      ],
+      [
+        4401.0,
+        7895.0
+      ],
+      [
+        4023.7,
+        7559.7
+      ],
+      [
+        3734.0,
+        7306.0
+      ],
+      [
+        3499.1,
+        7097.9
+      ],
+      [
+        3239.2,
+        6868.9
+      ],
+      [
+        3022.0,
+        6677.0
+      ],
+      [
+        2881.8,
+        6553.4
+      ],
+      [
+        2706.2,
+        6399.9
+      ],
+      [
+        2576.0,
+        6276.0
+      ],
+      [
+        2532.5,
+        6166.0
+      ],
+      [
+        2542.9,
+        5980.4
+      ],
+      [
+        2566.0,
+        5809.0
+      ],
+      [
+        2577.1,
+        5663.4
+      ],
+      [
+        2559.0,
+        5433.9
+      ],
+      [
+        2506.0,
+        5248.0
+      ],
+      [
+        2441.1,
+        5106.6
+      ],
+      [
+        2297.5,
+        4907.2
+      ],
+      [
+        2161.0,
+        4780.0
+      ],
+      [
+        1985.9,
+        4647.9
+      ],
+      [
+        1868.8,
+        4401.0
+      ],
+      [
+        1830.0,
+        4151.0
+      ],
+      [
+        1808.0,
+        3963.0
+      ],
+      [
+        1749.6,
+        3487.2
+      ],
+      [
+        1699.0,
+        3059.0
+      ],
+      [
+        1654.6,
+        2650.3
+      ],
+      [
+        1592.5,
+        2068.4
+      ],
+      [
+        1548.0,
+        1627.0
+      ],
+      [
+        1519.4,
+        1343.8
+      ],
+      [
+        1470.1,
+        863.5
+      ],
+      [
+        1436.0,
+        523.0
+      ],
+      [
+        1403.8,
+        213.6
+      ],
+      [
+        1367.8,
+        -145.1
+      ],
+      [
+        1336.0,
+        -461.0
+      ],
+      [
+        1298.8,
+        -820.2
+      ],
+      [
+        1249.6,
+        -1310.7
+      ],
+      [
+        1224.0,
+        -1565.0
+      ],
+      [
+        1191.8,
+        -1885.7
+      ],
+      [
+        1150.0,
+        -2301.9
+      ],
+      [
+        1121.0,
+        -2590.0
+      ],
+      [
+        1086.5,
+        -2933.0
+      ],
+      [
+        1043.0,
+        -3376.0
+      ],
+      [
+        1017.0,
+        -3635.0
+      ],
+      [
+        979.3,
+        -4009.9
+      ],
+      [
+        943.1,
+        -4370.5
+      ],
+      [
+        921.0,
+        -4590.0
+      ],
+      [
+        889.9,
+        -4892.7
+      ],
+      [
+        849.7,
+        -5203.2
+      ],
+      [
+        783.0,
+        -5373.0
+      ],
+      [
+        689.0,
+        -5506.7
+      ],
+      [
+        528.6,
+        -5650.6
+      ],
+      [
+        381.0,
+        -5733.0
+      ],
+      [
+        225.4,
+        -5781.3
+      ],
+      [
+        -16.1,
+        -5791.3
+      ],
+      [
+        -185.0,
+        -5757.0
+      ],
+      [
+        -546.5,
+        -5603.3
+      ],
+      [
+        -921.9,
+        -5280.4
+      ],
+      [
+        -1048.0,
+        -5115.0
+      ],
+      [
+        -1180.3,
+        -4891.0
+      ],
+      [
+        -1306.0,
+        -4575.0
+      ],
+      [
+        -1363.0,
+        -4373.0
+      ],
+      [
+        -1411.3,
+        -4119.8
+      ],
+      [
+        -1449.7,
+        -3722.0
+      ],
+      [
+        -1455.0,
+        -3450.0
+      ],
+      [
+        -1460.0,
+        -3180.6
+      ],
+      [
+        -1468.0,
+        -2812.9
+      ],
+      [
+        -1475.0,
+        -2430.0
+      ],
+      [
+        -1478.1,
+        -2169.8
+      ],
+      [
+        -1471.6,
+        -1768.4
+      ],
+      [
+        -1456.0,
+        -1461.0
+      ],
+      [
+        -1432.9,
+        -1148.6
+      ]
+    ],
+    "drivers": {
+      "GAS": {
+        "color": "#469BFF",
+        "team": "Toro Rosso",
+        "number": "10",
+        "actualLaps": [
+          {
+            "lap": 2,
+            "time": 137.371,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 3,
+            "time": 121.011,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 4,
+            "time": 89.166,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 5,
+            "time": 87.245,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 6,
+            "time": 87.275,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 7,
+            "time": 88.096,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 8,
+            "time": 87.99,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 9,
+            "time": 86.915,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 10,
+            "time": 87.492,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 11,
+            "time": 87.798,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 12,
+            "time": 87.819,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 13,
+            "time": 86.353,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 14,
+            "time": 86.705,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 15,
+            "time": 87.193,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 16,
+            "time": 86.71,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 17,
+            "time": 87.895,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 18,
+            "time": 87.358,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 19,
+            "time": 87.027,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 20,
+            "time": 86.614,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 21,
+            "time": 86.417,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 22,
+            "time": 86.457,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 23,
+            "time": 86.376,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 24,
+            "time": 86.448,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 25,
+            "time": 86.303,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 26,
+            "time": 86.176,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 27,
+            "time": 86.076,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 28,
+            "time": 86.773,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 29,
+            "time": 86.498,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 30,
+            "time": 87.056,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 31,
+            "time": 86.349,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 32,
+            "time": 86.229,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 33,
+            "time": 85.976,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 34,
+            "time": 90.692,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 35,
+            "time": 109.652,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 36,
+            "time": 84.92,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 37,
+            "time": 85.082,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 38,
+            "time": 85.131,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 39,
+            "time": 85.396,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 40,
+            "time": 85.556,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 41,
+            "time": 85.356,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 42,
+            "time": 85.278,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 43,
+            "time": 85.177,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 44,
+            "time": 87.183,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 45,
+            "time": 86.839,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 46,
+            "time": 84.767,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 47,
+            "time": 84.88,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 48,
+            "time": 86.035,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 49,
+            "time": 85.753,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 50,
+            "time": 85.008,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 51,
+            "time": 85.18,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 52,
+            "time": 85.293,
+            "compound": "SOFT"
+          }
+        ]
+      },
+      "PER": {
+        "color": "#F596C8",
+        "team": "Racing Point",
+        "number": "11",
+        "actualLaps": [
+          {
+            "lap": 2,
+            "time": 138.145,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 3,
+            "time": 120.366,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 4,
+            "time": 87.999,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 5,
+            "time": 86.712,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 6,
+            "time": 86.526,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 7,
+            "time": 88.13,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 8,
+            "time": 85.642,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 9,
+            "time": 85.514,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 10,
+            "time": 85.635,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 11,
+            "time": 85.482,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 12,
+            "time": 86.249,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 13,
+            "time": 85.943,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 14,
+            "time": 86.015,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 15,
+            "time": 85.966,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 16,
+            "time": 86.031,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 17,
+            "time": 85.939,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 18,
+            "time": 86.802,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 19,
+            "time": 85.75,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 20,
+            "time": 85.638,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 21,
+            "time": 85.876,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 22,
+            "time": 85.564,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 23,
+            "time": 86.496,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 24,
+            "time": 85.753,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 25,
+            "time": 85.91,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 26,
+            "time": 85.579,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 27,
+            "time": 85.551,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 28,
+            "time": 85.185,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 29,
+            "time": 85.378,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 30,
+            "time": 85.031,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 31,
+            "time": 85.249,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 32,
+            "time": 85.036,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 33,
+            "time": 85.184,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 34,
+            "time": 85.018,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 35,
+            "time": 85.008,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 36,
+            "time": 84.875,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 37,
+            "time": 85.039,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 38,
+            "time": 86.205,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 39,
+            "time": 89.927,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 40,
+            "time": 105.488,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 41,
+            "time": 83.704,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 42,
+            "time": 83.738,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 43,
+            "time": 83.529,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 44,
+            "time": 83.656,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 45,
+            "time": 83.946,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 46,
+            "time": 83.81,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 47,
+            "time": 83.861,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 48,
+            "time": 84.212,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 49,
+            "time": 84.499,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 50,
+            "time": 84.476,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 51,
+            "time": 84.407,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 52,
+            "time": 84.511,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 53,
+            "time": 84.625,
+            "compound": "SOFT"
+          }
+        ]
+      },
+      "ALO": {
+        "color": "#FF8700",
+        "team": "McLaren",
+        "number": "14",
+        "actualLaps": [
+          {
+            "lap": 2,
+            "time": 137.507,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 3,
+            "time": 121.731,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 4,
+            "time": 88.817,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 5,
+            "time": 87.095,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 6,
+            "time": 87.009,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 7,
+            "time": 88.291,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 8,
+            "time": 87.534,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 9,
+            "time": 105.377,
+            "compound": "UNKNOWN"
+          }
+        ]
+      },
+      "LEC": {
+        "color": "#52E252",
+        "team": "Sauber",
+        "number": "16",
+        "actualLaps": [
+          {
+            "lap": 2,
+            "time": 138.357,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 3,
+            "time": 120.528,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 4,
+            "time": 87.415,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 5,
+            "time": 86.579,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 6,
+            "time": 86.556,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 7,
+            "time": 87.222,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 8,
+            "time": 87.467,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 9,
+            "time": 89.165,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 10,
+            "time": 88.021,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 11,
+            "time": 87.515,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 12,
+            "time": 87.248,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 13,
+            "time": 86.931,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 14,
+            "time": 86.776,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 15,
+            "time": 87.006,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 16,
+            "time": 86.781,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 17,
+            "time": 87.188,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 18,
+            "time": 87.014,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 19,
+            "time": 86.805,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 20,
+            "time": 86.594,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 21,
+            "time": 86.581,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 22,
+            "time": 86.764,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 23,
+            "time": 86.92,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 24,
+            "time": 86.648,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 25,
+            "time": 86.472,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 26,
+            "time": 86.492,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 27,
+            "time": 86.229,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 28,
+            "time": 86.42,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 29,
+            "time": 86.261,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 30,
+            "time": 86.36,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 31,
+            "time": 86.215,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 32,
+            "time": 86.461,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 33,
+            "time": 86.472,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 34,
+            "time": 90.43,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 35,
+            "time": 105.465,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 36,
+            "time": 85.184,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 37,
+            "time": 84.843,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 38,
+            "time": 84.588,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 39,
+            "time": 84.859,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 40,
+            "time": 84.759,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 41,
+            "time": 84.82,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 42,
+            "time": 84.824,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 43,
+            "time": 84.757,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 44,
+            "time": 84.821,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 45,
+            "time": 84.63,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 46,
+            "time": 84.995,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 47,
+            "time": 84.642,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 48,
+            "time": 84.669,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 49,
+            "time": 84.623,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 50,
+            "time": 84.506,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 51,
+            "time": 84.619,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 52,
+            "time": 84.504,
+            "compound": "UNKNOWN"
+          }
+        ]
+      },
+      "STR": {
+        "color": "#005AFF",
+        "team": "Williams",
+        "number": "18",
+        "actualLaps": [
+          {
+            "lap": 2,
+            "time": 138.021,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 3,
+            "time": 122.718,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 4,
+            "time": 88.269,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 5,
+            "time": 87.012,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 6,
+            "time": 86.43,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 7,
+            "time": 86.346,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 8,
+            "time": 86.684,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 9,
+            "time": 86.437,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 10,
+            "time": 86.31,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 11,
+            "time": 86.513,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 12,
+            "time": 85.713,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 13,
+            "time": 86.657,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 14,
+            "time": 86.273,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 15,
+            "time": 87.608,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 16,
+            "time": 86.905,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 17,
+            "time": 86.113,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 18,
+            "time": 86.406,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 19,
+            "time": 86.019,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 20,
+            "time": 86.101,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 21,
+            "time": 86.569,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 22,
+            "time": 86.329,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 23,
+            "time": 86.544,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 24,
+            "time": 86.5,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 25,
+            "time": 86.534,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 26,
+            "time": 86.489,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 27,
+            "time": 86.527,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 28,
+            "time": 86.47,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 29,
+            "time": 86.394,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 30,
+            "time": 86.278,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 31,
+            "time": 85.805,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 32,
+            "time": 86.39,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 33,
+            "time": 86.085,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 34,
+            "time": 85.907,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 35,
+            "time": 90.407,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 36,
+            "time": 106.822,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 37,
+            "time": 84.608,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 38,
+            "time": 85.107,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 39,
+            "time": 84.58,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 40,
+            "time": 85.225,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 41,
+            "time": 85.031,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 42,
+            "time": 84.988,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 43,
+            "time": 84.743,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 44,
+            "time": 84.67,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 45,
+            "time": 84.656,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 46,
+            "time": 84.686,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 47,
+            "time": 84.616,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 48,
+            "time": 84.982,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 49,
+            "time": 86.719,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 50,
+            "time": 84.91,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 51,
+            "time": 85.148,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 52,
+            "time": 85.456,
+            "compound": "SOFT"
+          }
+        ]
+      },
+      "VAN": {
+        "color": "#FF8700",
+        "team": "McLaren",
+        "number": "2",
+        "actualLaps": [
+          {
+            "lap": 2,
+            "time": 138.314,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 3,
+            "time": 118.785,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 4,
+            "time": 87.761,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 5,
+            "time": 89.445,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 6,
+            "time": 86.808,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 7,
+            "time": 86.851,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 8,
+            "time": 87.104,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 9,
+            "time": 87.809,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 10,
+            "time": 87.347,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 11,
+            "time": 87.123,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 12,
+            "time": 87.179,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 13,
+            "time": 87.006,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 14,
+            "time": 87.37,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 15,
+            "time": 87.079,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 16,
+            "time": 86.972,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 17,
+            "time": 86.812,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 18,
+            "time": 86.613,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 19,
+            "time": 86.825,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 20,
+            "time": 86.708,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 21,
+            "time": 86.586,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 22,
+            "time": 86.92,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 23,
+            "time": 86.669,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 24,
+            "time": 91.036,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 25,
+            "time": 106.18,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 26,
+            "time": 85.598,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 27,
+            "time": 85.83,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 28,
+            "time": 86.105,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 29,
+            "time": 85.959,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 30,
+            "time": 85.944,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 31,
+            "time": 85.977,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 32,
+            "time": 85.79,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 33,
+            "time": 85.537,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 34,
+            "time": 88.726,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 35,
+            "time": 85.629,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 36,
+            "time": 86.879,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 37,
+            "time": 85.437,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 38,
+            "time": 85.132,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 39,
+            "time": 85.361,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 40,
+            "time": 85.377,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 41,
+            "time": 85.371,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 42,
+            "time": 85.192,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 43,
+            "time": 85.172,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 44,
+            "time": 85.234,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 45,
+            "time": 85.352,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 46,
+            "time": 87.209,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 47,
+            "time": 84.772,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 48,
+            "time": 85.061,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 49,
+            "time": 84.954,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 50,
+            "time": 85.777,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 51,
+            "time": 84.873,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 52,
+            "time": 84.899,
+            "compound": "SOFT"
+          }
+        ]
+      },
+      "MAG": {
+        "color": "#B6BABD",
+        "team": "Haas F1 Team",
+        "number": "20",
+        "actualLaps": [
+          {
+            "lap": 2,
+            "time": 137.918,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 3,
+            "time": 120.736,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 4,
+            "time": 96.469,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 5,
+            "time": 122.479,
+            "compound": "MEDIUM"
+          },
+          {
+            "lap": 6,
+            "time": 87.155,
+            "compound": "MEDIUM"
+          },
+          {
+            "lap": 7,
+            "time": 87.942,
+            "compound": "MEDIUM"
+          },
+          {
+            "lap": 8,
+            "time": 87.028,
+            "compound": "MEDIUM"
+          },
+          {
+            "lap": 9,
+            "time": 88.106,
+            "compound": "MEDIUM"
+          },
+          {
+            "lap": 10,
+            "time": 87.163,
+            "compound": "MEDIUM"
+          },
+          {
+            "lap": 11,
+            "time": 88.595,
+            "compound": "MEDIUM"
+          },
+          {
+            "lap": 12,
+            "time": 87.199,
+            "compound": "MEDIUM"
+          },
+          {
+            "lap": 13,
+            "time": 87.242,
+            "compound": "MEDIUM"
+          },
+          {
+            "lap": 14,
+            "time": 87.099,
+            "compound": "MEDIUM"
+          },
+          {
+            "lap": 15,
+            "time": 86.764,
+            "compound": "MEDIUM"
+          },
+          {
+            "lap": 16,
+            "time": 86.659,
+            "compound": "MEDIUM"
+          },
+          {
+            "lap": 17,
+            "time": 89.016,
+            "compound": "MEDIUM"
+          },
+          {
+            "lap": 18,
+            "time": 87.097,
+            "compound": "MEDIUM"
+          },
+          {
+            "lap": 19,
+            "time": 86.995,
+            "compound": "MEDIUM"
+          },
+          {
+            "lap": 20,
+            "time": 89.218,
+            "compound": "MEDIUM"
+          },
+          {
+            "lap": 21,
+            "time": 86.733,
+            "compound": "MEDIUM"
+          },
+          {
+            "lap": 22,
+            "time": 86.569,
+            "compound": "MEDIUM"
+          },
+          {
+            "lap": 23,
+            "time": 86.917,
+            "compound": "MEDIUM"
+          },
+          {
+            "lap": 24,
+            "time": 88.159,
+            "compound": "MEDIUM"
+          },
+          {
+            "lap": 25,
+            "time": 87.071,
+            "compound": "MEDIUM"
+          },
+          {
+            "lap": 26,
+            "time": 86.818,
+            "compound": "MEDIUM"
+          },
+          {
+            "lap": 27,
+            "time": 86.761,
+            "compound": "MEDIUM"
+          },
+          {
+            "lap": 28,
+            "time": 88.453,
+            "compound": "MEDIUM"
+          },
+          {
+            "lap": 29,
+            "time": 88.097,
+            "compound": "MEDIUM"
+          },
+          {
+            "lap": 30,
+            "time": 88.032,
+            "compound": "MEDIUM"
+          },
+          {
+            "lap": 31,
+            "time": 86.999,
+            "compound": "MEDIUM"
+          },
+          {
+            "lap": 32,
+            "time": 87.615,
+            "compound": "MEDIUM"
+          },
+          {
+            "lap": 33,
+            "time": 86.882,
+            "compound": "MEDIUM"
+          },
+          {
+            "lap": 34,
+            "time": 87.7,
+            "compound": "MEDIUM"
+          },
+          {
+            "lap": 35,
+            "time": 86.356,
+            "compound": "MEDIUM"
+          },
+          {
+            "lap": 36,
+            "time": 86.285,
+            "compound": "MEDIUM"
+          },
+          {
+            "lap": 37,
+            "time": 86.235,
+            "compound": "MEDIUM"
+          },
+          {
+            "lap": 38,
+            "time": 89.379,
+            "compound": "MEDIUM"
+          },
+          {
+            "lap": 39,
+            "time": 86.532,
+            "compound": "MEDIUM"
+          },
+          {
+            "lap": 40,
+            "time": 90.857,
+            "compound": "MEDIUM"
+          },
+          {
+            "lap": 41,
+            "time": 86.425,
+            "compound": "MEDIUM"
+          },
+          {
+            "lap": 42,
+            "time": 87.235,
+            "compound": "MEDIUM"
+          },
+          {
+            "lap": 43,
+            "time": 85.919,
+            "compound": "MEDIUM"
+          },
+          {
+            "lap": 44,
+            "time": 85.805,
+            "compound": "MEDIUM"
+          },
+          {
+            "lap": 45,
+            "time": 85.738,
+            "compound": "MEDIUM"
+          },
+          {
+            "lap": 46,
+            "time": 85.692,
+            "compound": "MEDIUM"
+          },
+          {
+            "lap": 47,
+            "time": 85.903,
+            "compound": "MEDIUM"
+          },
+          {
+            "lap": 48,
+            "time": 85.938,
+            "compound": "MEDIUM"
+          },
+          {
+            "lap": 49,
+            "time": 86.795,
+            "compound": "MEDIUM"
+          },
+          {
+            "lap": 50,
+            "time": 86.587,
+            "compound": "MEDIUM"
+          },
+          {
+            "lap": 51,
+            "time": 88.017,
+            "compound": "MEDIUM"
+          },
+          {
+            "lap": 52,
+            "time": 87.303,
+            "compound": "MEDIUM"
+          }
+        ]
+      },
+      "HUL": {
+        "color": "#FFF500",
+        "team": "Renault",
+        "number": "27",
+        "actualLaps": [
+          {
+            "lap": 2,
+            "time": 138.181,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 3,
+            "time": 118.295,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 4,
+            "time": 87.04,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 5,
+            "time": 86.843,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 6,
+            "time": 87.977,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 7,
+            "time": 87.006,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 8,
+            "time": 87.362,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 9,
+            "time": 87.891,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 10,
+            "time": 87.166,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 11,
+            "time": 86.713,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 12,
+            "time": 86.896,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 13,
+            "time": 86.476,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 14,
+            "time": 86.809,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 15,
+            "time": 86.912,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 16,
+            "time": 86.671,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 17,
+            "time": 86.63,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 18,
+            "time": 87.335,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 19,
+            "time": 86.597,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 20,
+            "time": 86.769,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 21,
+            "time": 86.428,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 22,
+            "time": 86.566,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 23,
+            "time": 86.31,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 24,
+            "time": 86.554,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 25,
+            "time": 86.347,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 26,
+            "time": 86.147,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 27,
+            "time": 86.252,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 28,
+            "time": 86.757,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 29,
+            "time": 86.578,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 30,
+            "time": 86.945,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 31,
+            "time": 86.162,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 32,
+            "time": 86.176,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 33,
+            "time": 86.229,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 34,
+            "time": 86.663,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 35,
+            "time": 86.483,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 36,
+            "time": 86.414,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 37,
+            "time": 86.481,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 38,
+            "time": 86.504,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 39,
+            "time": 86.314,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 40,
+            "time": 88.236,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 41,
+            "time": 91.629,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 42,
+            "time": 104.79,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 43,
+            "time": 86.693,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 44,
+            "time": 84.306,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 45,
+            "time": 84.54,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 46,
+            "time": 84.209,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 47,
+            "time": 84.059,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 48,
+            "time": 85.64,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 49,
+            "time": 84.403,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 50,
+            "time": 84.315,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 51,
+            "time": 84.533,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 52,
+            "time": 84.987,
+            "compound": "UNKNOWN"
+          }
+        ]
+      },
+      "RIC": {
+        "color": "#1E41FF",
+        "team": "Red Bull Racing",
+        "number": "3",
+        "actualLaps": [
+          {
+            "lap": 2,
+            "time": 138.448,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 3,
+            "time": 118.235,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 4,
+            "time": 86.824,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 5,
+            "time": 86.771,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 6,
+            "time": 85.598,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 7,
+            "time": 86.484,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 8,
+            "time": 88.186,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 9,
+            "time": 88.696,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 10,
+            "time": 85.767,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 11,
+            "time": 87.703,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 12,
+            "time": 85.76,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 13,
+            "time": 85.93,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 14,
+            "time": 85.729,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 15,
+            "time": 85.64,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 16,
+            "time": 85.424,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 17,
+            "time": 85.276,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 18,
+            "time": 85.229,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 19,
+            "time": 85.732,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 20,
+            "time": 85.399,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 21,
+            "time": 85.844,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 22,
+            "time": 85.301,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 23,
+            "time": 86.235,
+            "compound": "UNKNOWN"
+          }
+        ]
+      },
+      "OCO": {
+        "color": "#F596C8",
+        "team": "Racing Point",
+        "number": "31",
+        "actualLaps": [
+          {
+            "lap": 2,
+            "time": 137.3,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 3,
+            "time": 123.928,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 4,
+            "time": 87.876,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 5,
+            "time": 86.967,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 6,
+            "time": 86.198,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 7,
+            "time": 86.151,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 8,
+            "time": 86.071,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 9,
+            "time": 86.046,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 10,
+            "time": 86.076,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 11,
+            "time": 86.31,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 12,
+            "time": 86.096,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 13,
+            "time": 86.448,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 14,
+            "time": 85.598,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 15,
+            "time": 85.613,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 16,
+            "time": 85.387,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 17,
+            "time": 85.777,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 18,
+            "time": 85.8,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 19,
+            "time": 85.93,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 20,
+            "time": 85.649,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 21,
+            "time": 85.886,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 22,
+            "time": 85.708,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 23,
+            "time": 85.505,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 24,
+            "time": 86.964,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 25,
+            "time": 85.891,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 26,
+            "time": 85.604,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 27,
+            "time": 85.312,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 28,
+            "time": 85.317,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 29,
+            "time": 86.373,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 30,
+            "time": 85.438,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 31,
+            "time": 85.301,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 32,
+            "time": 85.137,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 33,
+            "time": 85.592,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 34,
+            "time": 85.125,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 35,
+            "time": 85.27,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 36,
+            "time": 85.2,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 37,
+            "time": 85.273,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 38,
+            "time": 89.408,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 39,
+            "time": 104.944,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 40,
+            "time": 84.438,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 41,
+            "time": 84.469,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 42,
+            "time": 84.416,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 43,
+            "time": 84.338,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 44,
+            "time": 84.179,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 45,
+            "time": 84.313,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 46,
+            "time": 84.411,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 47,
+            "time": 84.472,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 48,
+            "time": 84.305,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 49,
+            "time": 84.461,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 50,
+            "time": 84.258,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 51,
+            "time": 84.87,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 52,
+            "time": 84.444,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 53,
+            "time": 84.676,
+            "compound": "SOFT"
+          }
+        ]
+      },
+      "VER": {
+        "color": "#1E41FF",
+        "team": "Red Bull Racing",
+        "number": "33",
+        "actualLaps": [
+          {
+            "lap": 2,
+            "time": 136.204,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 3,
+            "time": 127.53,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 4,
+            "time": 86.555,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 5,
+            "time": 85.615,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 6,
+            "time": 85.475,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 7,
+            "time": 85.116,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 8,
+            "time": 84.976,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 9,
+            "time": 85.145,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 10,
+            "time": 85.04,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 11,
+            "time": 85.295,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 12,
+            "time": 85.189,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 13,
+            "time": 85.21,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 14,
+            "time": 85.135,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 15,
+            "time": 85.08,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 16,
+            "time": 84.966,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 17,
+            "time": 84.904,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 18,
+            "time": 84.98,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 19,
+            "time": 85.159,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 20,
+            "time": 85.356,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 21,
+            "time": 85.027,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 22,
+            "time": 85.31,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 23,
+            "time": 85.021,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 24,
+            "time": 85.018,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 25,
+            "time": 85.718,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 26,
+            "time": 89.839,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 27,
+            "time": 103.711,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 28,
+            "time": 83.93,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 29,
+            "time": 83.682,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 30,
+            "time": 84.414,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 31,
+            "time": 84.174,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 32,
+            "time": 84.058,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 33,
+            "time": 84.266,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 34,
+            "time": 84.103,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 35,
+            "time": 84.242,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 36,
+            "time": 83.888,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 37,
+            "time": 84.084,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 38,
+            "time": 83.781,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 39,
+            "time": 83.633,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 40,
+            "time": 83.691,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 41,
+            "time": 83.609,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 42,
+            "time": 84.171,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 43,
+            "time": 84.083,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 44,
+            "time": 83.762,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 45,
+            "time": 84.774,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 46,
+            "time": 84.297,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 47,
+            "time": 83.927,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 48,
+            "time": 83.982,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 49,
+            "time": 84.337,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 50,
+            "time": 83.705,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 51,
+            "time": 83.767,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 52,
+            "time": 83.836,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 53,
+            "time": 83.881,
+            "compound": "SOFT"
+          }
+        ]
+      },
+      "SIR": {
+        "color": "#005AFF",
+        "team": "Williams",
+        "number": "35",
+        "actualLaps": [
+          {
+            "lap": 2,
+            "time": 137.479,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 3,
+            "time": 122.9,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 4,
+            "time": 88.099,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 5,
+            "time": 87.234,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 6,
+            "time": 86.8,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 7,
+            "time": 86.539,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 8,
+            "time": 86.509,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 9,
+            "time": 86.537,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 10,
+            "time": 86.261,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 11,
+            "time": 86.262,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 12,
+            "time": 86.078,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 13,
+            "time": 87.427,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 14,
+            "time": 87.396,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 15,
+            "time": 86.506,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 16,
+            "time": 86.004,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 17,
+            "time": 86.244,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 18,
+            "time": 86.342,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 19,
+            "time": 86.272,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 20,
+            "time": 86.162,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 21,
+            "time": 86.365,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 22,
+            "time": 87.244,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 23,
+            "time": 86.515,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 24,
+            "time": 86.666,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 25,
+            "time": 86.983,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 26,
+            "time": 86.212,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 27,
+            "time": 86.122,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 28,
+            "time": 86.122,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 29,
+            "time": 86.148,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 30,
+            "time": 86.283,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 31,
+            "time": 86.973,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 32,
+            "time": 85.803,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 33,
+            "time": 85.866,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 34,
+            "time": 86.132,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 35,
+            "time": 86.134,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 36,
+            "time": 87.066,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 37,
+            "time": 90.478,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 38,
+            "time": 105.918,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 39,
+            "time": 84.788,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 40,
+            "time": 84.693,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 41,
+            "time": 85.792,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 42,
+            "time": 87.108,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 43,
+            "time": 84.734,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 44,
+            "time": 84.909,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 45,
+            "time": 84.79,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 46,
+            "time": 84.708,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 47,
+            "time": 84.679,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 48,
+            "time": 85.053,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 49,
+            "time": 85.438,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 50,
+            "time": 84.899,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 51,
+            "time": 85.762,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 52,
+            "time": 83.768,
+            "compound": "SOFT"
+          }
+        ]
+      },
+      "HAM": {
+        "color": "#00D2BE",
+        "team": "Mercedes",
+        "number": "44",
+        "actualLaps": [
+          {
+            "lap": 2,
+            "time": 135.751,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 3,
+            "time": 127.904,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 4,
+            "time": 86.009,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 5,
+            "time": 85.027,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 6,
+            "time": 84.827,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 7,
+            "time": 84.751,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 8,
+            "time": 84.557,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 9,
+            "time": 84.349,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 10,
+            "time": 84.918,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 11,
+            "time": 84.823,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 12,
+            "time": 84.839,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 13,
+            "time": 84.709,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 14,
+            "time": 84.666,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 15,
+            "time": 84.747,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 16,
+            "time": 84.674,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 17,
+            "time": 84.545,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 18,
+            "time": 84.825,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 19,
+            "time": 84.56,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 20,
+            "time": 84.448,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 21,
+            "time": 83.611,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 22,
+            "time": 83.996,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 23,
+            "time": 83.974,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 24,
+            "time": 84.847,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 25,
+            "time": 84.634,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 26,
+            "time": 84.892,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 27,
+            "time": 84.272,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 28,
+            "time": 88.176,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 29,
+            "time": 102.82,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 30,
+            "time": 82.497,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 31,
+            "time": 82.718,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 32,
+            "time": 82.839,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 33,
+            "time": 83.807,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 34,
+            "time": 84.755,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 35,
+            "time": 84.456,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 36,
+            "time": 84.322,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 37,
+            "time": 84.24,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 38,
+            "time": 83.894,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 39,
+            "time": 83.757,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 40,
+            "time": 84.116,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 41,
+            "time": 83.768,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 42,
+            "time": 84.423,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 43,
+            "time": 84.31,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 44,
+            "time": 84.392,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 45,
+            "time": 83.711,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 46,
+            "time": 83.512,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 47,
+            "time": 83.759,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 48,
+            "time": 83.776,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 49,
+            "time": 84.251,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 50,
+            "time": 84.534,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 51,
+            "time": 84.525,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 52,
+            "time": 85.368,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 53,
+            "time": 86.125,
+            "compound": "SOFT"
+          }
+        ]
+      },
+      "VET": {
+        "color": "#DC0000",
+        "team": "Ferrari",
+        "number": "5",
+        "actualLaps": [
+          {
+            "lap": 2,
+            "time": 137.828,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 3,
+            "time": 119.157,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 4,
+            "time": 85.442,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 5,
+            "time": 86.672,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 6,
+            "time": 86.288,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 7,
+            "time": 85.975,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 8,
+            "time": 87.526,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 9,
+            "time": 86.853,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 10,
+            "time": 85.463,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 11,
+            "time": 84.933,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 12,
+            "time": 84.854,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 13,
+            "time": 85.088,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 14,
+            "time": 85.551,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 15,
+            "time": 85.738,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 16,
+            "time": 85.257,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 17,
+            "time": 85.979,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 18,
+            "time": 84.954,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 19,
+            "time": 85.34,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 20,
+            "time": 84.564,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 21,
+            "time": 84.905,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 22,
+            "time": 84.566,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 23,
+            "time": 85.055,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 24,
+            "time": 84.794,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 25,
+            "time": 85.296,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 26,
+            "time": 85.108,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 27,
+            "time": 84.566,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 28,
+            "time": 84.47,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 29,
+            "time": 89.444,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 30,
+            "time": 104.145,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 31,
+            "time": 83.663,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 32,
+            "time": 83.068,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 33,
+            "time": 83.472,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 34,
+            "time": 83.199,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 35,
+            "time": 83.538,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 36,
+            "time": 83.255,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 37,
+            "time": 82.952,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 38,
+            "time": 84.271,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 39,
+            "time": 83.6,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 40,
+            "time": 83.473,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 41,
+            "time": 83.174,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 42,
+            "time": 83.542,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 43,
+            "time": 83.27,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 44,
+            "time": 83.311,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 45,
+            "time": 82.884,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 46,
+            "time": 82.927,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 47,
+            "time": 82.702,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 48,
+            "time": 82.828,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 49,
+            "time": 83.405,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 50,
+            "time": 83.187,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 51,
+            "time": 82.505,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 52,
+            "time": 83.116,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 53,
+            "time": 82.914,
+            "compound": "UNKNOWN"
+          }
+        ]
+      },
+      "SAI": {
+        "color": "#FFF500",
+        "team": "Renault",
+        "number": "55",
+        "actualLaps": [
+          {
+            "lap": 2,
+            "time": 137.249,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 3,
+            "time": 124.452,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 4,
+            "time": 87.748,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 5,
+            "time": 86.379,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 6,
+            "time": 86.288,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 7,
+            "time": 86.275,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 8,
+            "time": 86.019,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 9,
+            "time": 86.265,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 10,
+            "time": 86.272,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 11,
+            "time": 86.354,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 12,
+            "time": 86.128,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 13,
+            "time": 86.665,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 14,
+            "time": 86.885,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 15,
+            "time": 86.329,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 16,
+            "time": 85.909,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 17,
+            "time": 86.263,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 18,
+            "time": 86.405,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 19,
+            "time": 86.238,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 20,
+            "time": 86.854,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 21,
+            "time": 85.981,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 22,
+            "time": 85.938,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 23,
+            "time": 86.666,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 24,
+            "time": 87.331,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 25,
+            "time": 86.353,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 26,
+            "time": 85.983,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 27,
+            "time": 86.127,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 28,
+            "time": 85.935,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 29,
+            "time": 85.942,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 30,
+            "time": 85.956,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 31,
+            "time": 85.963,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 32,
+            "time": 85.612,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 33,
+            "time": 86.179,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 34,
+            "time": 86.489,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 35,
+            "time": 85.643,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 36,
+            "time": 85.794,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 37,
+            "time": 85.827,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 38,
+            "time": 86.142,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 39,
+            "time": 90.536,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 40,
+            "time": 106.333,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 41,
+            "time": 84.725,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 42,
+            "time": 84.921,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 43,
+            "time": 84.758,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 44,
+            "time": 84.531,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 45,
+            "time": 84.565,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 46,
+            "time": 84.563,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 47,
+            "time": 84.553,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 48,
+            "time": 84.612,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 49,
+            "time": 84.502,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 50,
+            "time": 84.674,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 51,
+            "time": 84.804,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 52,
+            "time": 84.056,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 53,
+            "time": 85.023,
+            "compound": "SOFT"
+          }
+        ]
+      },
+      "RAI": {
+        "color": "#DC0000",
+        "team": "Ferrari",
+        "number": "7",
+        "actualLaps": [
+          {
+            "lap": 2,
+            "time": 137.567,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 3,
+            "time": 129.263,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 4,
+            "time": 85.439,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 5,
+            "time": 84.871,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 6,
+            "time": 84.859,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 7,
+            "time": 84.538,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 8,
+            "time": 84.631,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 9,
+            "time": 84.5,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 10,
+            "time": 84.686,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 11,
+            "time": 84.782,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 12,
+            "time": 84.978,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 13,
+            "time": 84.648,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 14,
+            "time": 84.512,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 15,
+            "time": 84.582,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 16,
+            "time": 84.956,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 17,
+            "time": 84.742,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 18,
+            "time": 84.839,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 19,
+            "time": 84.516,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 20,
+            "time": 89.105,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 21,
+            "time": 102.54,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 22,
+            "time": 83.953,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 23,
+            "time": 83.535,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 24,
+            "time": 83.84,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 25,
+            "time": 83.586,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 26,
+            "time": 83.67,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 27,
+            "time": 83.733,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 28,
+            "time": 83.515,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 29,
+            "time": 84.002,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 30,
+            "time": 84.097,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 31,
+            "time": 83.777,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 32,
+            "time": 83.86,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 33,
+            "time": 84.837,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 34,
+            "time": 84.537,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 35,
+            "time": 84.257,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 36,
+            "time": 84.236,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 37,
+            "time": 84.239,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 38,
+            "time": 83.854,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 39,
+            "time": 83.936,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 40,
+            "time": 83.97,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 41,
+            "time": 83.897,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 42,
+            "time": 84.652,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 43,
+            "time": 84.249,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 44,
+            "time": 84.583,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 45,
+            "time": 86.019,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 46,
+            "time": 84.985,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 47,
+            "time": 84.722,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 48,
+            "time": 84.857,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 49,
+            "time": 85.298,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 50,
+            "time": 85.351,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 51,
+            "time": 85.075,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 52,
+            "time": 85.655,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 53,
+            "time": 86.833,
+            "compound": "SOFT"
+          }
+        ]
+      },
+      "BOT": {
+        "color": "#00D2BE",
+        "team": "Mercedes",
+        "number": "77",
+        "actualLaps": [
+          {
+            "lap": 2,
+            "time": 137.044,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 3,
+            "time": 126.167,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 4,
+            "time": 86.776,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 5,
+            "time": 85.763,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 6,
+            "time": 85.538,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 7,
+            "time": 84.981,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 8,
+            "time": 85.07,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 9,
+            "time": 85.163,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 10,
+            "time": 85.176,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 11,
+            "time": 85.203,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 12,
+            "time": 85.065,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 13,
+            "time": 85.224,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 14,
+            "time": 85.024,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 15,
+            "time": 85.284,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 16,
+            "time": 85.014,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 17,
+            "time": 84.915,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 18,
+            "time": 84.582,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 19,
+            "time": 85.291,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 20,
+            "time": 85.08,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 21,
+            "time": 85.169,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 22,
+            "time": 85.271,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 23,
+            "time": 85.325,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 24,
+            "time": 85.076,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 25,
+            "time": 86.181,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 26,
+            "time": 85.473,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 27,
+            "time": 84.199,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 28,
+            "time": 84.359,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 29,
+            "time": 84.551,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 30,
+            "time": 84.37,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 31,
+            "time": 83.847,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 32,
+            "time": 84.157,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 33,
+            "time": 84.762,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 34,
+            "time": 84.56,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 35,
+            "time": 84.09,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 36,
+            "time": 88.735,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 37,
+            "time": 102.981,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 38,
+            "time": 83.062,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 39,
+            "time": 82.907,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 40,
+            "time": 83.082,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 41,
+            "time": 83.038,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 42,
+            "time": 84.116,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 43,
+            "time": 87.893,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 44,
+            "time": 83.26,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 45,
+            "time": 83.174,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 46,
+            "time": 83.042,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 47,
+            "time": 83.525,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 48,
+            "time": 83.908,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 49,
+            "time": 84.545,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 50,
+            "time": 83.665,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 51,
+            "time": 83.734,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 52,
+            "time": 83.637,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 53,
+            "time": 84.256,
+            "compound": "SOFT"
+          }
+        ]
+      },
+      "GRO": {
+        "color": "#B6BABD",
+        "team": "Haas F1 Team",
+        "number": "8",
+        "actualLaps": [
+          {
+            "lap": 2,
+            "time": 137.281,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 3,
+            "time": 125.602,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 4,
+            "time": 87.285,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 5,
+            "time": 86.163,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 6,
+            "time": 86.251,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 7,
+            "time": 85.981,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 8,
+            "time": 85.982,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 9,
+            "time": 85.955,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 10,
+            "time": 86.249,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 11,
+            "time": 85.985,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 12,
+            "time": 85.92,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 13,
+            "time": 86.028,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 14,
+            "time": 85.949,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 15,
+            "time": 85.976,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 16,
+            "time": 85.919,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 17,
+            "time": 85.921,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 18,
+            "time": 85.956,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 19,
+            "time": 85.803,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 20,
+            "time": 85.763,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 21,
+            "time": 86.097,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 22,
+            "time": 85.604,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 23,
+            "time": 90.276,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 24,
+            "time": 106.129,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 25,
+            "time": 85.732,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 26,
+            "time": 84.998,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 27,
+            "time": 85.026,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 28,
+            "time": 85.132,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 29,
+            "time": 85.11,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 30,
+            "time": 85.406,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 31,
+            "time": 85.103,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 32,
+            "time": 84.836,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 33,
+            "time": 85.605,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 34,
+            "time": 86.238,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 35,
+            "time": 85.779,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 36,
+            "time": 84.947,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 37,
+            "time": 85.204,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 38,
+            "time": 84.874,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 39,
+            "time": 84.898,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 40,
+            "time": 85.047,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 41,
+            "time": 84.926,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 42,
+            "time": 84.902,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 43,
+            "time": 84.656,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 44,
+            "time": 84.623,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 45,
+            "time": 84.568,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 46,
+            "time": 84.421,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 47,
+            "time": 84.559,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 48,
+            "time": 84.243,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 49,
+            "time": 84.745,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 50,
+            "time": 84.436,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 51,
+            "time": 84.765,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 52,
+            "time": 84.244,
+            "compound": "SOFT"
+          },
+          {
+            "lap": 53,
+            "time": 84.313,
+            "compound": "SOFT"
+          }
+        ]
+      },
+      "ERI": {
+        "color": "#52E252",
+        "team": "Sauber",
+        "number": "9",
+        "actualLaps": [
+          {
+            "lap": 2,
+            "time": 128.119,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 3,
+            "time": 116.316,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 4,
+            "time": 87.089,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 5,
+            "time": 86.981,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 6,
+            "time": 86.881,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 7,
+            "time": 87.068,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 8,
+            "time": 87.066,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 9,
+            "time": 87.119,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 10,
+            "time": 87.234,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 11,
+            "time": 87.157,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 12,
+            "time": 86.902,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 13,
+            "time": 86.944,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 14,
+            "time": 87.708,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 15,
+            "time": 87.331,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 16,
+            "time": 86.942,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 17,
+            "time": 87.028,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 18,
+            "time": 86.738,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 19,
+            "time": 86.739,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 20,
+            "time": 86.546,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 21,
+            "time": 86.719,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 22,
+            "time": 86.718,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 23,
+            "time": 86.743,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 24,
+            "time": 87.156,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 25,
+            "time": 87.058,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 26,
+            "time": 86.357,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 27,
+            "time": 86.492,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 28,
+            "time": 86.34,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 29,
+            "time": 86.289,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 30,
+            "time": 86.236,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 31,
+            "time": 86.143,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 32,
+            "time": 86.373,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 33,
+            "time": 86.26,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 34,
+            "time": 86.266,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 35,
+            "time": 86.337,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 36,
+            "time": 86.375,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 37,
+            "time": 86.366,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 38,
+            "time": 86.406,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 39,
+            "time": 87.353,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 40,
+            "time": 86.569,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 41,
+            "time": 88.87,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 42,
+            "time": 92.048,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 43,
+            "time": 106.962,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 44,
+            "time": 83.768,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 45,
+            "time": 84.171,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 46,
+            "time": 84.276,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 47,
+            "time": 84.221,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 48,
+            "time": 84.444,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 49,
+            "time": 84.366,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 50,
+            "time": 84.448,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 51,
+            "time": 84.317,
+            "compound": "UNKNOWN"
+          },
+          {
+            "lap": 52,
+            "time": 83.827,
+            "compound": "UNKNOWN"
+          }
+        ]
+      }
+    }
+  }
+}

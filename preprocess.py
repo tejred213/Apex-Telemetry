@@ -21,6 +21,8 @@ import fastf1
 import numpy as np
 import pandas as pd
 
+from strategy_engine import build_strategy, COMPOUND_INDEX
+
 # ---------------------------------------------------------------------------
 # Configuration
 # ---------------------------------------------------------------------------
@@ -301,6 +303,162 @@ def process_session(year: int, gp_name: str, gp_dir_name: str, force_telemetry: 
     return True
 
 
+def process_race_session(year: int, gp_name: str, gp_dir_name: str):
+    """
+    Process a Race session to extract tire stint data, train an MLX
+    degradation model, AND build simulation data (track map + driver
+    lap histories).  Saves data/<year>/<gp>/strategy.json.
+    """
+    gp_dir = DATA_DIR / str(year) / gp_dir_name
+    gp_dir.mkdir(parents=True, exist_ok=True)
+
+    strategy_file = gp_dir / "strategy.json"
+    if strategy_file.exists():
+        try:
+            old_data = json.loads(strategy_file.read_text())
+            if "simulation" in old_data:
+                print(f"    ⏭  Race strategy/simulation already processed, skipping")
+                return True
+        except Exception:
+            pass
+
+    # Load Race session — WITH telemetry so we can extract track map
+    try:
+        session = fastf1.get_session(year, gp_name, "R")
+        session.load(telemetry=True, weather=False, messages=False)
+    except Exception as e:
+        print(f"    ❌ Failed to load Race session: {e}")
+        return False
+
+    laps = session.laps.copy()
+    total_race_laps = session.total_laps if hasattr(session, "total_laps") else int(laps["LapNumber"].max())
+
+    # ── Extract track map from fastest lap telemetry ──────────────────
+    track_map = []
+    try:
+        fastest = session.laps.pick_fastest()
+        if fastest is not None:
+            tel = fastest.get_telemetry()
+            if "X" in tel.columns and "Y" in tel.columns:
+                xs = tel["X"].values
+                ys = tel["Y"].values
+                # Downsample to ~200 points for a smooth but lightweight path
+                step = max(1, len(xs) // 200)
+                track_map = [[round(float(xs[i]), 1), round(float(ys[i]), 1)]
+                             for i in range(0, len(xs), step)]
+                print(f"    🗺️  Track map: {len(track_map)} points")
+    except Exception as e:
+        print(f"    ⚠️  Could not extract track map: {e}")
+
+    # ── Build per-driver actual lap histories + team colors ───────────
+    sim_drivers = {}
+    all_drivers = laps["Driver"].unique()
+
+    for drv in all_drivers:
+        drv_laps = laps[laps["Driver"] == drv].sort_values("LapNumber")
+        team = drv_laps.iloc[0]["Team"] if "Team" in drv_laps.columns else ""
+
+        # Get driver number
+        try:
+            drv_info = session.get_driver(drv)
+            drv_number = str(drv_info.get("DriverNumber", ""))
+        except Exception:
+            drv_number = ""
+
+        # Resolve team color
+        try:
+            color = fastf1.plotting.get_team_color(team, session=session)
+        except Exception:
+            color = "#FFFFFF"
+        if color in ("#FFFFFF", "#FFF", "#ffffff"):
+            color = TEAM_COLORS_FALLBACK.get(team, "#FFFFFF")
+
+        # Build lap-by-lap history
+        actual_laps = []
+        for _, row in drv_laps.iterrows():
+            lt = row.get("LapTime")
+            lt_sec = lt.total_seconds() if pd.notna(lt) else None
+            if lt_sec is None or lt_sec <= 0 or lt_sec > 300:
+                continue
+            compound = str(row.get("Compound", "")).upper()
+            actual_laps.append({
+                "lap": safe_int(row["LapNumber"]),
+                "time": round(lt_sec, 3),
+                "compound": compound if compound in COMPOUND_INDEX else "UNKNOWN",
+            })
+
+        if actual_laps:
+            sim_drivers[drv] = {
+                "color": color,
+                "team": team,
+                "number": drv_number,
+                "actualLaps": actual_laps,
+            }
+
+    print(f"    👥 Simulation drivers: {len(sim_drivers)}")
+
+    # ── Filter to accurate laps for MLX training ─────────────────────
+    accurate = laps[laps["IsAccurate"] == True].copy()
+
+    if accurate.empty:
+        print(f"    ⚠️  No accurate race laps, skipping strategy")
+        return False
+
+    # Convert times
+    accurate["LapTime_sec"] = accurate["LapTime"].dt.total_seconds()
+
+    # Build race lap list for the strategy engine
+    race_laps: list[dict] = []
+    for _, row in accurate.iterrows():
+        compound = str(row.get("Compound", "")).upper()
+        if compound not in COMPOUND_INDEX:
+            continue
+
+        lt = safe_float(row["LapTime_sec"])
+        if lt is None or lt <= 0:
+            continue
+
+        tire_life = safe_int(row.get("TyreLife", 0)) or 0
+
+        race_laps.append({
+            "driver": row["Driver"],
+            "lapNumber": safe_int(row["LapNumber"]),
+            "lapTime": lt,
+            "compound": compound,
+            "tireLife": tire_life,
+            "stint": safe_int(row.get("Stint", 1)) or 1,
+        })
+
+    if len(race_laps) < 20:
+        print(f"    ⚠️  Only {len(race_laps)} valid race laps — too few for model")
+        return False
+
+    print(f"    🏁 Race data: {len(race_laps)} laps, {total_race_laps} total race laps")
+
+    # Call the MLX strategy engine
+    ok = build_strategy(
+        race_laps=race_laps,
+        total_laps=total_race_laps,
+        output_path=strategy_file,
+        verbose=True,
+    )
+
+    # ── Append simulation block to the saved strategy.json ────────────
+    if ok and strategy_file.exists():
+        try:
+            data = json.loads(strategy_file.read_text())
+            data["simulation"] = {
+                "trackMap": track_map,
+                "drivers": sim_drivers,
+            }
+            strategy_file.write_text(json.dumps(data, indent=2))
+            print(f"    🏎️  Simulation data appended to strategy.json")
+        except Exception as e:
+            print(f"    ⚠️  Failed to append simulation data: {e}")
+
+    return ok
+
+
 # ---------------------------------------------------------------------------
 # Main entry point
 # ---------------------------------------------------------------------------
@@ -311,6 +469,10 @@ def main():
     parser.add_argument("--gp", type=str, help="Process a single GP (requires --year)")
     parser.add_argument("--force-telemetry", action="store_true",
                         help="Wipe and rebuild telemetry/ files (keeps laps/session data)")
+    parser.add_argument("--skip-strategy", action="store_true",
+                        help="Skip MLX race strategy model training")
+    parser.add_argument("--race-only", action="store_true",
+                        help="Skip qualifying processing and only process race/strategy simulation")
     args = parser.parse_args()
 
     if args.gp and not args.year:
@@ -321,42 +483,74 @@ def main():
     # ── Step 1: Schedules ─────────────────────────────────────────────
     schedule = process_schedule(years)
 
-    # ── Step 2: Sessions ──────────────────────────────────────────────
+    # ── Step 2: Qualifying Sessions ───────────────────────────────────
     total, success, failed = 0, 0, 0
 
-    for year in years:
-        year_str = str(year)
-        if year_str not in schedule:
-            continue
+    if not args.race_only:
+        for year in years:
+            year_str = str(year)
+            if year_str not in schedule:
+                continue
+    
+            races = schedule[year_str]
+            print(f"\n🏎️  Processing {year} ({len(races)} races)...")
+    
+            for race in races:
+                gp_name = race["name"]
+                gp_dir_name = sanitize_gp_name(gp_name)
+    
+                # If --gp flag, only process that specific GP
+                if args.gp and args.gp.lower() not in gp_name.lower():
+                    continue
+    
+                total += 1
+                print(f"\n  📍 R{race['round']}: {gp_name}")
+    
+                try:
+                    ok = process_session(year, gp_name, gp_dir_name,
+                                         force_telemetry=args.force_telemetry)
+                    if ok:
+                        success += 1
+                    else:
+                        failed += 1
+                except Exception as e:
+                    failed += 1
+                    print(f"    ❌ Unexpected error: {e}")
+                    traceback.print_exc()
 
-        races = schedule[year_str]
-        print(f"\n🏎️  Processing {year} ({len(races)} races)...")
+    # ── Step 3: Race Strategy (MLX) ───────────────────────────────────
+    strategy_total, strategy_ok = 0, 0
+    if not args.skip_strategy:
+        print(f"\n{'='*60}")
+        print("🧠 Processing Race Strategy (MLX tire degradation)…")
+        print(f"{'='*60}")
 
-        for race in races:
-            gp_name = race["name"]
-            gp_dir_name = sanitize_gp_name(gp_name)
-
-            # If --gp flag, only process that specific GP
-            if args.gp and args.gp.lower() not in gp_name.lower():
+        for year in years:
+            year_str = str(year)
+            if year_str not in schedule:
                 continue
 
-            total += 1
-            print(f"\n  📍 R{race['round']}: {gp_name}")
+            races = schedule[year_str]
+            for race in races:
+                gp_name = race["name"]
+                gp_dir_name = sanitize_gp_name(gp_name)
 
-            try:
-                ok = process_session(year, gp_name, gp_dir_name,
-                                     force_telemetry=args.force_telemetry)
-                if ok:
-                    success += 1
-                else:
-                    failed += 1
-            except Exception as e:
-                failed += 1
-                print(f"    ❌ Unexpected error: {e}")
-                traceback.print_exc()
+                if args.gp and args.gp.lower() not in gp_name.lower():
+                    continue
+
+                strategy_total += 1
+                print(f"\n  📍 R{race['round']}: {gp_name} (Race)")
+
+                try:
+                    ok = process_race_session(year, gp_name, gp_dir_name)
+                    if ok:
+                        strategy_ok += 1
+                except Exception as e:
+                    print(f"    ❌ Strategy error: {e}")
+                    traceback.print_exc()
 
     print(f"\n{'='*60}")
-    print(f"✅ Done! {success}/{total} sessions processed ({failed} failed)")
+    print(f"✅ Done! Qualifying: {success}/{total} | Strategy: {strategy_ok}/{strategy_total}")
     print(f"   Data saved to: {DATA_DIR}")
     print(f"{'='*60}\n")
 

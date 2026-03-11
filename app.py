@@ -427,6 +427,22 @@ def api_track_dominance():
     })
 
 
+@app.route("/api/strategy", methods=["GET"])
+def api_strategy():
+    """Get MLX-predicted tire degradation curves for a race."""
+    year, gp = _parse_session_params()
+    gp_dir = _find_gp_dir(year, gp)
+
+    if gp_dir is None:
+        return jsonify({"error": f"No data for {year} {gp}"}), 404
+
+    strategy = _read_json(gp_dir / "strategy.json")
+    if strategy is None:
+        return jsonify({"error": f"No strategy data for {year} {gp}. Run: python preprocess.py --year {year} --gp {gp}"}), 404
+
+    return jsonify(strategy)
+
+
 # ── Catch-all: serve React index.html for client-side routes ────────
 @app.route("/", defaults={"path": ""})
 @app.route("/<path:path>")
