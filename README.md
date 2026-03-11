@@ -1,4 +1,4 @@
-# 🏎️ F1 Sector Analysis
+# 🏎️ ApexTelemetry
 
 A web application that provides sector-by-sector comparison of Formula 1 qualifying laps. Built with **React** and **Flask**, powered by the **FastF1** Python library for official F1 telemetry data.
 
