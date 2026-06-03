@@ -79,7 +79,9 @@ function computeCurvatures(curve, segments = 500) {
     return curvatures;
 }
 
-// ─── 2024 F1 Team Livery Definitions ─────────────────────────────────────────
+// ─── 2025 F1 Team Livery Definitions ─────────────────────────────────────────
+// Colors matched to the real current-generation (2025) cars. Verified against
+// the official F1.com / team-color references (see PR notes).
 // Each zone maps to a part of the car:
 //   body    → main monocoque / survival cell
 //   nose    → nose cone
@@ -88,123 +90,157 @@ function computeCurvatures(curve, segments = 500) {
 //   wing    → front & rear wings, halo
 //   accent  → racing stripe, DRS flap highlight
 //   wingEnd → wing endplates
-// Each entry maps to GLB model materials:
+// Each entry maps to GLB model materials (see F1CarModel.jsx):
 //   body      → "paints" material (main livery color)
 //   secondary → "detail" material (secondary body color)
 //   carbon    → "carbon" material tint
 //   accent    → "drivercolor" material (t-cam, highlights)
 //   wing      → used for procedural fallback
 const TEAM_LIVERIES = {
+    // RB21 — deep matte navy with red & yellow Red Bull accents
     'Red Bull Racing': {
-        body:      '#3671C6',  // official RBR blue
-        secondary: '#1B264F',  // dark navy accents
-        carbon:    '#1B264F',  // navy carbon
-        accent:    '#FDD900',  // yellow
-        wing:      '#CC1122',  // red wings
-        wingEnd:   '#CC1122',
-        nose:      '#FDD900',
-        engine:    '#1B264F',
-        sidepod:   '#3671C6',
+        body:      '#15224F',  // RB21 dark navy
+        secondary: '#E32219',  // Red Bull red
+        carbon:    '#0A0E26',  // near-black navy carbon
+        accent:    '#FFD400',  // yellow
+        wing:      '#E32219',
+        wingEnd:   '#E32219',
+        nose:      '#FFD400',
+        engine:    '#0A0E26',
+        sidepod:   '#15224F',
         matte: true,
     },
+    // SF-25 — darker rosso with white (HP) and yellow
     'Ferrari': {
-        body:      '#E8002D',  // rosso corsa 2024
-        secondary: '#E8002D',
+        body:      '#B3001B',  // 2025 darker rosso corsa
+        secondary: '#FFFFFF',  // HP white
         carbon:    '#1a1a1a',  // black carbon
         accent:    '#FFEB00',  // yellow accent
         wing:      '#1a1a1a',
-        wingEnd:   '#E8002D',
-        nose:      '#E8002D',
-        engine:    '#E8002D',
-        sidepod:   '#E8002D',
+        wingEnd:   '#B3001B',
+        nose:      '#B3001B',
+        engine:    '#B3001B',
+        sidepod:   '#B3001B',
     },
+    // W16 — black base with silver and Petronas teal
     'Mercedes': {
-        body:      '#27F4D2',  // petronas teal 2024
-        secondary: '#000000',  // black
-        carbon:    '#000000',
-        accent:    '#27F4D2',  // teal highlights
-        wing:      '#000000',
-        wingEnd:   '#000000',
+        body:      '#1A1A1A',  // black base
+        secondary: '#B7C2C9',  // silver
+        carbon:    '#050505',
+        accent:    '#00D2BE',  // Petronas teal highlights
+        wing:      '#0A0A0A',
+        wingEnd:   '#00D2BE',
         nose:      '#C8CCCE',  // silver
-        engine:    '#000000',
-        sidepod:   '#000000',
+        engine:    '#1A1A1A',
+        sidepod:   '#1A1A1A',
     },
+    // MCL39 — papaya orange with anthracite and cyan
     'McLaren': {
-        body:      '#FF8000',  // papaya orange 2024
+        body:      '#FF7A00',  // papaya orange
         secondary: '#1a1a1a',  // anthracite
         carbon:    '#1a1a1a',
-        accent:    '#47C7FC',  // fluro blue accent
+        accent:    '#00B2E3',  // cyan accent
         wing:      '#1a1a1a',
-        wingEnd:   '#FF8000',
-        nose:      '#FF8000',
+        wingEnd:   '#FF7A00',
+        nose:      '#FF7A00',
         engine:    '#1a1a1a',
         sidepod:   '#1a1a1a',
     },
+    // AMR25 — British racing green with lime accents
     'Aston Martin': {
-        body:      '#229971',  // AMR24 green 2024
+        body:      '#00594F',  // Aston racing green
         secondary: '#006F62',
-        carbon:    '#0A3A2A',  // dark green carbon
+        carbon:    '#08312A',  // dark green carbon
         accent:    '#CEDC00',  // lime yellow
         wing:      '#006F62',
         wingEnd:   '#006F62',
-        nose:      '#229971',
+        nose:      '#00594F',
         engine:    '#006F62',
-        sidepod:   '#229971',
+        sidepod:   '#00594F',
     },
+    // A525 — blue base with BWT pink
     'Alpine': {
-        body:      '#0093CC',  // alpine blue 2024
-        secondary: '#FF69B4',  // BWT pink
-        carbon:    '#1a1a1a',
-        accent:    '#FF69B4',  // pink accent
-        wing:      '#1a1a1a',
-        wingEnd:   '#0093CC',
-        nose:      '#0093CC',
-        engine:    '#1a1a1a',
-        sidepod:   '#FF69B4',
+        body:      '#1A4F9C',  // Alpine blue
+        secondary: '#FF2E88',  // BWT pink
+        carbon:    '#12203A',
+        accent:    '#FF2E88',  // pink accent
+        wing:      '#12203A',
+        wingEnd:   '#1A4F9C',
+        nose:      '#1A4F9C',
+        engine:    '#12203A',
+        sidepod:   '#FF2E88',
     },
+    // FW47 — blue with more white and cyan
     'Williams': {
-        body:      '#64C4FF',  // williams blue 2024 (lighter)
-        secondary: '#005AFF',  // deep blue
-        carbon:    '#012B5C',  // dark navy carbon
-        accent:    '#E87722',  // gulf-inspired orange
-        wing:      '#005AFF',
-        wingEnd:   '#005AFF',
-        nose:      '#64C4FF',
-        engine:    '#012B5C',
-        sidepod:   '#005AFF',
+        body:      '#1648D0',  // Williams / Atlassian blue
+        secondary: '#FFFFFF',  // white
+        carbon:    '#041640',  // dark navy carbon
+        accent:    '#29B6E8',  // cyan
+        wing:      '#1648D0',
+        wingEnd:   '#1648D0',
+        nose:      '#FFFFFF',
+        engine:    '#041640',
+        sidepod:   '#1648D0',
     },
+    // VCARB 02 — white base with navy and red (2025 team name "Racing Bulls")
+    'Racing Bulls': {
+        body:      '#F2F2F2',  // white base
+        secondary: '#1A2B6B',  // navy
+        carbon:    '#14182E',
+        accent:    '#E32339',  // red
+        wing:      '#1A2B6B',
+        wingEnd:   '#E32339',
+        nose:      '#F2F2F2',
+        engine:    '#1A2B6B',
+        sidepod:   '#F2F2F2',
+    },
+    // Legacy 2024 name for the same team (Visa Cash App RB)
     'RB': {
         body:      '#6692FF',  // VCARB blue 2024
-        secondary: '#FFFFFF',  // white
+        secondary: '#FFFFFF',
         carbon:    '#1a1a1a',
-        accent:    '#FF3C38',  // VCARB red
+        accent:    '#FF3C38',
         wing:      '#FFFFFF',
         wingEnd:   '#FF3C38',
         nose:      '#FFFFFF',
         engine:    '#2B4562',
         sidepod:   '#6692FF',
     },
+    // C45 — fluorescent green over black
     'Kick Sauber': {
-        body:      '#52E252',  // stake green 2024
-        secondary: '#1a1a1a',
-        carbon:    '#1a1a1a',
-        accent:    '#00E701',  // neon green
+        body:      '#00D13A',  // fluorescent green
+        secondary: '#1a1a1a',  // black
+        carbon:    '#0A0A0A',
+        accent:    '#B5F500',  // lime-green neon
         wing:      '#1a1a1a',
-        wingEnd:   '#52E252',
-        nose:      '#52E252',
+        wingEnd:   '#00D13A',
+        nose:      '#00D13A',
         engine:    '#1a1a1a',
         sidepod:   '#1a1a1a',
     },
+    // Alias — some sessions report the team simply as "Sauber"
+    'Sauber': {
+        body:      '#00D13A',
+        secondary: '#1a1a1a',
+        carbon:    '#0A0A0A',
+        accent:    '#B5F500',
+        wing:      '#1a1a1a',
+        wingEnd:   '#00D13A',
+        nose:      '#00D13A',
+        engine:    '#1a1a1a',
+        sidepod:   '#1a1a1a',
+    },
+    // VF-25 — white base with black and red
     'Haas F1 Team': {
-        body:      '#B6BABD',  // silver-grey 2024
+        body:      '#ECECEC',  // white base (more prominent in 2025)
         secondary: '#1a1a1a',  // black
         carbon:    '#1a1a1a',
-        accent:    '#E10600',  // red
+        accent:    '#E6002B',  // red
         wing:      '#1a1a1a',
-        wingEnd:   '#1a1a1a',
-        nose:      '#FFFFFF',
+        wingEnd:   '#E6002B',
+        nose:      '#ECECEC',
         engine:    '#1a1a1a',
-        sidepod:   '#B6BABD',
+        sidepod:   '#ECECEC',
     },
 };
 
