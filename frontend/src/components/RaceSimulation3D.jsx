@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef, useMemo } from 'react';
-import { Canvas, useFrame } from '@react-three/fiber';
+import { Canvas, useFrame, useThree } from '@react-three/fiber';
 import { OrbitControls, Html } from '@react-three/drei';
 import * as THREE from 'three';
 import { F1CarGLB } from './F1CarModel';
@@ -242,6 +242,17 @@ function makeAccent(hex, finished) {
 
 // ─── 3D Components ──────────────────────────────────────────────────────────
 
+/**
+ * Forces a single render whenever `value` changes. Needed because the Canvas
+ * uses frameloop="demand" while paused — without this, scrubbing the timeline
+ * while paused would not redraw the cars at their new positions.
+ */
+function RenderOnDemand({ value }) {
+    const invalidate = useThree((s) => s.invalidate);
+    useEffect(() => { invalidate(); }, [value, invalidate]);
+    return null;
+}
+
 /** Procedural F1 Car with 2024 team-specific liveries */
 function F1Car({ color, team, isHero, code, number, finished }) {
     const livery = TEAM_LIVERIES[team];
@@ -372,7 +383,7 @@ function F1Car({ color, team, isHero, code, number, finished }) {
 
 /** Track Surface — flat ribbon + white edges + kerbs on high-curvature sections */
 function Track({ curve }) {
-    const segments = 600;
+    const segments = 400;
 
     // Precomputed data arrays
     const { positions, normals: trackNormals, curvatures } = useMemo(() => {
@@ -1069,7 +1080,14 @@ export default function RaceSimulation3D({ simulation, compounds, stints, totalL
             </div>
 
             <div className="race-sim__track-container" style={{ height: '550px', padding: 0, overflow: 'hidden' }}>
-                <Canvas camera={{ position: [0, 70, 70], fov: 50 }} shadows>
+                <Canvas
+                    camera={{ position: [0, 70, 70], fov: 50 }}
+                    shadows
+                    dpr={[1, 1.5]}
+                    frameloop={playing ? 'always' : 'demand'}
+                    performance={{ min: 0.5 }}
+                    gl={{ powerPreference: 'high-performance', antialias: true }}>
+                    <RenderOnDemand value={elapsed} />
                     <color attach="background" args={['#050505']} />
                     <ambientLight intensity={1.0} />
                     <directionalLight position={[80, 120, 50]} intensity={1.8} castShadow />
